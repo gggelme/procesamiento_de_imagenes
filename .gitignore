@@ -1,0 +1,43 @@
+# Entornos virtuales (el más importante)
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de datos pesados (común en redes neuronales)
+*.csv
+*.json
+*.h5
+*.pth
+*.pkl
+*.npy
+*.npz
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
